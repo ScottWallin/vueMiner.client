@@ -1,5 +1,5 @@
 <template>
-Moon Goes Here
+<Moon />
 </template>
 
 <script>

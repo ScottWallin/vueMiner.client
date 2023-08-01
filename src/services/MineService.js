@@ -8,7 +8,7 @@ import { logger } from "../utils/Logger.js";
 class MineService {
 async Mine() {
   try {
-    const res = 
+    logger.log("and you have myyyyyy axe!")
   } catch (error) {
     logger.error("Your pickaxe is dull. Try again")
   }
