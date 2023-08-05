@@ -3,5 +3,6 @@ export class Moon {
   this.id = data.id
   this.clickCount = data.clickCount
   this.autoCount = data.autoCount
+  this.cheese = data.cheese
   }
 }

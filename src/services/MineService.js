@@ -6,7 +6,7 @@ import { ClickUpgrade } from "../models/ClickUpgrade.js";
 import { logger } from "../utils/Logger.js";
 
 class MineService {
-async Mine() {
+async mine() {
   try {
     logger.log("and you have myyyyyy axe!")
   } catch (error) {

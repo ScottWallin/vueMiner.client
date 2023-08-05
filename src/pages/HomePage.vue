@@ -1,8 +1,15 @@
 <template>
-<Moon />
+  <div class="row">
+    <div class="col-12">
+      <!-- <button id="moon"> -->
+        <Moon @click="mine()"/>
+      <!-- </button>   -->
+    </div>
+  </div>
 </template>
 
 <script>
+import { mineService } from "../services/MineService.js";
 export default {
   setup() {
     return {}
