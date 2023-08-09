@@ -1,11 +1,18 @@
 <template>
-  <div class="row">
-    <div class="col-12">
-      <!-- <button id="moon"> -->
-        <Moon @click="mine()"/>
-      <!-- </button>   -->
+  <header>
+    <div class="row align-items-center">
+      <h1>Cheese Miner</h1>
     </div>
-  </div>
+  </header>
+  <body>
+    <div class="row align-content-center">
+      <div class="col-12">
+        <!-- <button id="moon"> -->
+          <Moon @click="mine()"/>
+          <!-- </button>   -->
+        </div>
+      </div>
+    </body>
 </template>
 
 <script>
